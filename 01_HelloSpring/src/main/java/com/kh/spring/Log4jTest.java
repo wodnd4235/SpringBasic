@@ -11,7 +11,7 @@ public class Log4jTest {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		new Log4jTest().test();
-
+  
 	}
 	public void test() {
 		Dev dev=new Dev();
