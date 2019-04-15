@@ -5,7 +5,7 @@ import org.apache.log4j.Logger;
 import com.kh.spring.demo.model.vo.Dev;
 
 public class Log4jTest {
-
+ 
 	private Logger logger=Logger.getLogger(Log4jTest.class);
 	
 	public static void main(String[] args) {
