@@ -9,3 +9,4 @@ public interface MemoService {
 	int insertMemo(Map<String,String> map);
 	
 }
+ 
