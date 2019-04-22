@@ -8,7 +8,7 @@ public class Dev implements Serializable{
 	
 	/**
 	 * 
-	 */
+	 */ 
 	private static final long serialVersionUID = 2049549352615947866L;
 	private int devNo;
 	private String devName;
