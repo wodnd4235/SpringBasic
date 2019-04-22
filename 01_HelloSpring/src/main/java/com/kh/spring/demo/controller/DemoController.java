@@ -38,7 +38,7 @@ public class DemoController {
 		
 	}
 	
-	
+	  
 	@RequestMapping("/demo/selectDemoList.do")
 	public String selectDemoList(Model model) {
 		List<Dev> list=service.selectDemoList();
