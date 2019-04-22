@@ -20,7 +20,7 @@ public class LoggerAspect {
 	public void myAround() {}*/
 	@Pointcut("execution(* com.kh.spring.memo..*(..))")
 	public void before() {}
-	
+	   
 	@Around("execution(* com.kh.spring..*(..))")	
 	public Object loggerAdvice(ProceedingJoinPoint joinPoint) throws Throwable
 	{
