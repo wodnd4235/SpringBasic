@@ -13,7 +13,7 @@ import org.springframework.stereotype.Component;
 @Component//빈객체등록
 @Aspect//aop객체임
 public class LoggerAspect {
-   
+     
 	private Logger logger=LoggerFactory.getLogger(LoggerAspect.class);
 	
 	/*@Pointcut("execution(* com.kh.spring..*(..))")
